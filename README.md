@@ -1,5 +1,4 @@
 # Inda-Derisking-Visa-Viz-China
-# Trade Data Cleaning and Processing
 
 ## Table of Contents
 1.  Introduction
