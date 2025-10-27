@@ -26,17 +26,17 @@ The project is organized into several directories to manage raw data, processed 
 │   ├── exports/
 │   │   └── country_wise/
 │   ├── imports/
-│   │   ├── commodity_wise_china/
-│   │   ├── country_wise/
-│   │   └── CommodityWiseAll/
-│   ├── Import_Export_Data_Cleaning.ipynb
-│   ├── Import_Export_Analysis.ipynb
-│   ├── Chinese_Dependence.ipynb
-│   ├── Commodity_Analysis.ipynb
+│       ├── commodity_wise_china/
+│       ├── country_wise/
+│       └── CommodityWiseAll/
 ├── cleaned_data/
 │   ├── CountryWiseImports.csv
 │   ├── CommodityWiseImports.csv
 │   └── ... (other processed data files)
+├── Import_Export_Data_Cleaning.ipynb
+├── Import_Export_Analysis.ipynb
+├── Chinese_Dependence.ipynb
+├── Commodity_Analysis.ipynb
 ├── README.md
 ```
 
