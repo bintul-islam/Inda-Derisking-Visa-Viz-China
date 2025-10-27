@@ -5,14 +5,13 @@
 1.  Introduction
 2.  Project Structure
 3.  Data Source
-4.  Setup
-5.  Notebooks
+4.  Notebooks
     *   `Import_Export_Data_Cleaning.ipynb`
     *   `Import_Export_Analysis.ipynb`
     *   `Chinese_Dependence.ipynb`
     *   `Commodity_Analysis.ipynb`
-6.  Results and Visualizations (Example)
-7.  Conclusion and Future Work
+5.  Results and Visualizations (Example)
+6.  Conclusion and Future Work
 
 ## 1. Introduction
 
@@ -42,8 +41,6 @@ The project is organized into several directories to manage raw data, processed 
 ├── README.md
 ```
 
-
-```
 
 ## 3. Data Source
 
