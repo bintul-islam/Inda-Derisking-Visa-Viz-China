@@ -55,66 +55,33 @@ The raw data is expected to be in `.xlsx` format, downloaded ***from https://tra
 3.  Download the Imports data Commodity x Country-wise(Reports) and Country(CHINA P RP) for years 2018-2025 and put in the **Directory: `data/imports/CommmodityWiseAll`**
     For each commodity, create a folder with the name as `HSCode_X` (e.g., `HSCode_85`) and put the respective data there.
 
-## 4. Setup
-
-To set up the project and run the notebooks, follow these steps:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone <repository-url>
-    cd Inda-Derisking-Visa-Viz-China
-    ```
-
-2.  **Create a virtual environment (recommended):**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate # On Windows: .\venv\Scripts\activate
-    ```
-
-3.  **Install the required packages:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4.  **Download raw data:**
-    Follow the instructions in the "Data Source" section to download the necessary Excel files and place them in the correct `data/` subdirectories.
-
-5.  **Run the Jupyter Notebooks:**
-    ```bash
-    jupyter lab
-    ```
-    This will open Jupyter Lab in your browser, from which you can navigate to the `notebooks/` directory and run the analysis.
-
-## 5. Notebooks
+## 4. Notebooks
 
 This project includes several Jupyter notebooks, each designed for a specific part of the data processing and analysis pipeline.
 
-### 5.1. `Import_Export_Data_Cleaning.ipynb`
+### 4.1. `Import_Export_Data_Cleaning.ipynb`
 This notebook is dedicated to the initial data preparation steps:
 1.  **Locate and read** multiple Excel files for different trade categories (imports by country, exports by country, imports by commodity).
 2.  **Standardize headers** and extract relevant columns to ensure data consistency.
 3.  **Consolidate data** from various years and files into a single, clean DataFrame, ready for analysis.
 4.  **Save the cleaned data** into easily accessible CSV files in the `processed_data/` directory for further analysis or visualization.
 
-### 5.2. `Import_Export_Analysis.ipynb`
+### 4.2. `Import_Export_Analysis.ipynb`
 This notebook focuses on high-level analysis of India's overall trade:
 1.  **Time-series plots for imports and exports**: Visualize the trends of India's total imports and exports over time.
 2.  **Export-Import Ratio**: Calculate and plot the ratio of exports to imports to understand India's trade balance.
 
-### 5.3. `Chinese_Dependence.ipynb`
+### 4.3. `Chinese_Dependence.ipynb`
 This notebook dives deeper into India's trade relationship with China:
 1.  **Imports Country-level contribution charts**: Generate visualizations showing the contribution of various countries to India's total imports, highlighting China's share.
 2.  **Dominance Index of China**: Develop and visualize a dominance index to quantify India's reliance on China for imports.
 3.  **Import share of top 5 countries**: Compare China's import share against other top importing countries.
 
-### 5.4. `Commodity_Analysis.ipynb`
+### 4.4. `Commodity_Analysis.ipynb`
 This notebook provides a detailed look at commodity-level trade with China:
 1.  **Top 5 Contributing commodities (Imports) (CHINA)**: Identify and visualize the top 5 commodities imported from China.
 2.  **% Share of top 5 Commodities (Imports) (CHINA)**: Analyze the percentage share of these top commodities in India's total imports from China.
 3.  **Trend Plots of Import Ratio (CHINA/WORLD) Commodity level**: Plot time-series trends of the import ratio for specific commodities (China's share of world imports for that commodity) to gauge China's global dominance in those sectors and India's reliance.
-
-## 6. Results and Visualizations (Example)
-After running the notebooks, the `processed_data/` directory will contain cleaned CSVs, and the notebooks themselves will generate various plots and charts. Here's an example of the kind of visualization you might expect:
 
 
 
