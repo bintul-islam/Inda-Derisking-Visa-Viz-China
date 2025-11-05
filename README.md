@@ -23,36 +23,30 @@ The project is organized into several directories to manage raw data, processed 
 ```
 .
 ├── data/
-│   ├── exports/
-│   │   └── country_wise/
-│   ├── imports/
-│       ├── commodity_wise_china/
-│       ├── country_wise/
-│       └── CommodityWiseAll/
-├── cleaned_data/
-│   ├── CountryWiseImports.csv
-│   ├── CommodityWiseImports.csv
-│   └── ... (other processed data files)
-├── Import_Export_Data_Cleaning.ipynb
-├── Import_Export_Analysis.ipynb
-├── Chinese_Dependence.ipynb
-├── Commodity_Analysis.ipynb
+│   ├── IndiaExportsChinaTotal
+│   ├── IndiaImportsAllCountries
+│   ├── IndiaImportsChinaTotal
+│   ├── IndiaImportsWorldTotal
+│   ├── ChapterImportWLD_CHN
+├── ImportExportAnalysis.ipynb
+├── CountryDependence.ipynb
+├── ChapterWiseAnalysis.ipynb
 ├── README.md
 ```
 
 
 ## 3. Data Source
 
-The raw data is expected to be in `.xlsx` format, downloaded ***from https://tradestat.commerce.gov.in/***
+The raw data is expected to be in `.csv` format, downloaded ***https://wits.worldbank.org/***
 
 ### 3.1. For Exports Data
-1.  Download the Exports data Select Country-wise(Reports) and Country(All) for years 2018-2025 and put in the **Directory: `data/exports/country_wise`**
+1.  Download the Exports data Select Country-wise(Reports) and Country(All) for years 2003-2024 and put in the **Directory: `data/`**
 
 ### 3.2. For Imports Data
-1.  Download the Imports data Select Country-wise(Reports) and Country(All) for years 2018-2025 and put in the **Directory: `data/imports/country_wise`**
-2.  Download the Imports data Country-Wise all Commodities(Reports) and Country(CHINA P RP) for years 2018-2025 and put in the **Directory: `data/imports/commodity_wise_china`**
-3.  Download the Imports data Commodity x Country-wise(Reports) and Country(CHINA P RP) for years 2018-2025 and put in the **Directory: `data/imports/CommmodityWiseAll`**
-    For each commodity, create a folder with the name as `HSCode_X` (e.g., `HSCode_85`) and put the respective data there.
+1.  Download the Imports data Select Country-wise(Reports) and Country(All) for years 2018-2025 and put in the **Directory: data/`**
+2.  Download the Imports data Country-Wise all Commodities(Reports) and Country(CHINA P RP) for years 2018-2025 and put in the **Directory: data/`**
+3.  Download the Imports data Commodity x Country-wise(Reports) and Country(CHINA P RP) for years 2018-2025 and put in the **Directory: `data/**
+   
 
 ## 4. Notebooks
 
