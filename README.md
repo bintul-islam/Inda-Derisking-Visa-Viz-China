@@ -1,72 +1,48 @@
-# Inda-Derisking-Visa-Viz-China
-
-## Table of Contents
-1.  Introduction
-2.  Project Structure
-3.  Data Source
-4.  Notebooks
-    *   `Import_Export_Data_Cleaning.ipynb`
-    *   `Import_Export_Analysis.ipynb`
-    *   `Chinese_Dependence.ipynb`
-    *   `Commodity_Analysis.ipynb`
-5.  Results and Visualizations (Example)
-6.  Conclusion and Future Work
-
-## 1. Introduction
-
-This project aims to analyze India's trade data, with a specific focus on understanding and visualizing its trade relationships, particularly concerning imports and exports with China. The goal is to identify patterns, dependencies, and potential areas for "derisking" India's trade reliance on specific countries or commodities. This analysis will involve cleaning raw trade data, performing time-series analysis, and examining commodity-level import trends.
-
-## 2. Project Structure
-
-The project is organized into several directories to manage raw data, processed data, and notebooks effectively.
-
-```
-.
-├── data/
-│   ├── IndiaExportsChinaTotal
-│   ├── IndiaImportsAllCountries
-│   ├── IndiaImportsChinaTotal
-│   ├── IndiaImportsWorldTotal
-│   ├── ChapterImportWLD_CHN
-├── ImportExportAnalysis.ipynb
-├── CountryDependence.ipynb
-├── ChapterWiseAnalysis.ipynb
-├── README.md
-```
-
-
 ## 3. Data Source
 
-The raw data is expected to be in `.csv` format, downloaded ***https://wits.worldbank.org/***
+All raw trade data used in this analysis is publicly available from the World Integrated Trade Solution (WITS) platform, a product of The World Bank. Data for fiscal years (FY) 2003 through 2024 is utilized.
 
-### 3.1. For Exports Data
-1.  Download the Exports data Select Country-wise(Reports) and Country(All) for years 2003-2024 and put in the **Directory: `data/`**
+**Download Instructions:**
+Data should be downloaded from [https://wits.worldbank.org/](https://wits.worldbank.org/) and placed into the `data/` directory as specified in the `Project Structure`.
 
-### 3.2. For Imports Data
-1.  Download all relevant data from the website already downbload in the **data** folder
+*   **For Exports Data:**
+    *   Select "Country-wise (Reports)", "Country (All)", and years "2003-2024".
+    *   Save relevant files to `data/IndiaExportsChinaTotal`.
+*   **For Imports Data:**
+    *   Download all necessary data for "IndiaImportsAllCountries", "IndiaImportsChinaTotal", "IndiaImportsWorldTotal", and "ChapterImportWLD_CHN" for the specified years. These files are typically available by selecting different trade indicators and partner country aggregations on the WITS portal.
 
-## 4. Notebooks
+## 4. Notebooks: Quantifying the Asymmetry (Data-Driven Analysis)
 
-This project includes several Jupyter notebooks, each designed for a specific part of the data processing and analysis pipeline.
+This project includes several Jupyter notebooks, each designed to perform specific analyses that align with the quantitative sections of the paper.
 
+### 4.1. `ImportExportAnalysis.ipynb` - Corresponds to Section 2.1: The Foundational Imbalance: An Exploding Trade Deficit
 
-### 4.1. `ImportExportAnalysis.ipynb`
-This notebook focuses on high-level analysis of India's overall trade:
-1.  **Time-series plots for imports and exports**: Visualize the trends of India's total imports and exports over time.
-2.  **Export-Import Ratio**: Calculate and plot the ratio of exports to imports to understand India's trade balance.
-3.  **Trade Deficit Sevirity**: Plot 
+This notebook focuses on the high-level analysis of India's overall trade to establish the foundational trade imbalance, capturing the insights presented in Figure 1 of the paper.
 
-### 4.3. `CountryDependence.ipynb`
-This notebook dives deeper into India's trade relationship with China:
-1.  **Imports Country-level contribution charts**: Generate visualizations showing the contribution of various countries to India's total imports, highlighting China's share.
-2.  **Dominance Index of China**: Develop and visualize a dominance index to quantify India's reliance on China for imports.
-3.  **Import share of top 5 countries**: Compare China's import share against other top importing countries.
+*   **Time-series plots for imports and exports (Figure 1A):** Visualize the trends of India's total imports from and exports to China over time, demonstrating the dramatic divergence.
+*   **Export-Import Ratio (Figure 1B):** Calculate and plot the ratio of exports to imports, illustrating the progressive decline in India's capacity to offset Chinese goods with its own productive output.
+*   **Trade Deficit Severity (Figure 1C):** Plot the expanding trade deficit with China, underscoring the scale of the challenge.
 
-### 4.4. `Commodity_Analysis.ipynb`
-This notebook provides a detailed look at commodity-level trade with China:
-1.  **Top 5 Contributing commodities (Imports) (CHINA)**: Identify and visualize the top 5 commodities imported from China.
-2.  **% Growth rate of these commodies from china and world**: CAGR plot for key products world and china
-3.  **Diversity Valnaurability**: Plot No of product whose 40% of imports are from china every year
+### 4.2. `CountryDependence.ipynb` - Corresponds to Section 2.2: The Illusion of Diversification
 
+This notebook delves into India's trade relationships with its top partners, particularly China, to deconstruct the "illusion of diversification" described in the paper and generate insights similar to Figure 2.
 
+*   **Imports Country-level contribution charts (Figure 2A):** Generate visualizations showing the import share of India's top five partners, highlighting China's contribution.
+*   **Dominance Index of China (Figure 2B):** Develop and visualize a dominance index quantifying China's import share relative to other top partners, assessing trends in its singular dominance.
+*   **Combined Share of Top 5 Countries (Figure 2C):** Analyze the proportion of India's total world imports accounted for by the combined share of its top 5 partner countries.
 
+### 4.3. `Commodity_Analysis.ipynb` - Corresponds to Section 2.3: Unveiling the True Dependency: A Sector-Specific Deep Dive
+
+This notebook provides a detailed, granular look at commodity-level trade with China, unveiling the true extent of dependency in critical manufacturing value chains, as depicted in Figure 3.
+
+*   **Top 5 Contributing Commodities (Imports from China) (Figure 3A):** Identify and visualize the top 5 commodities imported from China by volume and their respective share, focusing on core industrial goods (e.g., HS Code 85, 84, 29).
+*   **% Growth Rate (CAGR) of these Commodities from China and World (Figure 3B):** Plot the Compound Annual Growth Rate (CAGR) for key product categories from China versus the world, indicating accelerating trade intensity.
+*   **Diversity Vulnerability (Figure 3C):** Plot the number of products for which over 40% of India's total imports originate from China each year, illustrating the expanding breadth of supply chain vulnerability.
+
+## 5. Results and Visualizations
+
+The execution of these notebooks will generate a series of plots and data summaries that directly support the quantitative findings presented in the research paper. These visualizations serve as empirical evidence for the foundational imbalance, the illusion of diversification, and the deepening sector-specific dependencies.
+
+## 6. Conclusion and Future Work
+
+This project provides the computational framework for understanding India's de-risking paradox. The analysis reveals that superficial macro-level diversification often masks a deepening structural dependency on China, particularly in key manufacturing sectors. Future work could involve integrating policy data (e.g., PLI scheme details) to perform a more direct correlation analysis with the trade data trends, as hypothesized in Section 3 of the paper.
