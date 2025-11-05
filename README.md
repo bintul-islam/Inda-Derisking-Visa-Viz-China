@@ -1,3 +1,18 @@
+# India's De-risking Paradox: Data-Driven Analysis and Visualization
+
+## Project Overview
+
+This project provides the implementation and data-driven analysis for the paper "India's De-risking Paradox: How Domestic Policy Deepens Strategic Dependence on China." It focuses on quantitatively examining India's trade relationships, specifically its imports and exports with China, to uncover patterns of dependency, assess the effectiveness of de-risking strategies, and visualize critical insights. The analysis identifies foundational trade imbalances, dissects the "illusion of diversification," and unveils the true extent of sector-specific dependencies as discussed in the paper.
+
+## 1. Introduction: The Geoeconomic Challenge of an Adversarial Partner
+
+India is pursuing a strategic de-risking initiative to address economic disparities and strategic vulnerabilities stemming from its complex relationship with China. This project provides the empirical examination of bilateral trade data, which is essential to move beyond rhetoric and accurately diagnose the scale and nature of India's economic vulnerability vis-à-vis China. The accompanying notebooks clean raw trade data, perform time-series analysis, and examine commodity-level import trends to support the paper's arguments regarding a "paradox of dependency" where domestic policies may inadvertently deepen reliance on China.
+
+## 2. Project Structure
+
+The project is organized into several directories and Jupyter notebooks to manage raw data, processed data, and analytical scripts effectively, mirroring the analytical sections of the paper.
+
+
 ## 3. Data Source
 
 All raw trade data used in this analysis is publicly available from the World Integrated Trade Solution (WITS) platform, a product of The World Bank. Data for fiscal years (FY) 2003 through 2024 is utilized.
