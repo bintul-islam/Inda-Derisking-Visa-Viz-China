@@ -1,0 +1,97 @@
+,Indicator,Country,Year,Number of Sources,Governance (-2.5 to +2.5),Percentile Rank,Standard Error
+0,Voice and Accountability,India,2023,12,0.09,51.47,0.12
+1,Political Stability and Absenc..,India,2023,9,-0.64,21.33,0.21
+2,Government Effectiveness,India,2023,9,0.48,67.92,0.25
+3,Regulatory Quality,India,2023,10,-0.14,47.17,0.2
+4,Rule of Law,India,2023,12,0.19,56.13,0.16
+5,Control of Corruption,India,2023,12,-0.37,41.51,0.15
+0,Political Stability and Absence of Violence/Terrorism,India,2020,8,-0.84,18.4,0.21
+1,Political Stability and Absence of Violence/Terrorism,India,2021,8,-0.69,22.64,0.21
+2,Political Stability and Absence of Violence/Terrorism,India,2022,8,-0.62,24.06,0.21
+3,Government Effectiveness,India,2020,8,0.37,65.71,0.23
+4,Government Effectiveness,India,2021,8,0.25,60.95,0.23
+5,Government Effectiveness,India,2022,8,0.37,63.21,0.24
+6,Regulatory Quality,India,2020,9,-0.13,46.67,0.2
+7,Regulatory Quality,India,2021,9,-0.09,49.05,0.19
+8,Regulatory Quality,India,2022,9,-0.05,50.94,0.2
+9,Rule of Law,India,2020,11,-0.06,52.38,0.15
+10,Rule of Law,India,2021,11,-0.11,50.0,0.16
+11,Rule of Law,India,2022,11,0.11,55.19,0.16
+12,Control of Corruption,India,2020,12,-0.29,44.29,0.14
+13,Control of Corruption,India,2021,12,-0.32,44.76,0.15
+14,Control of Corruption,India,2022,12,-0.32,44.81,0.15
+0,Political Stability and Absence of Violence/Terrorism,India,2017,9,-0.77,18.57,0.21
+1,Political Stability and Absence of Violence/Terrorism,India,2018,9,-1.0,13.68,0.21
+2,Political Stability and Absence of Violence/Terrorism,India,2019,8,-0.8,19.34,0.22
+3,Government Effectiveness,India,2017,9,0.04,55.24,0.2
+4,Government Effectiveness,India,2018,9,0.26,63.33,0.21
+5,Government Effectiveness,India,2019,9,0.13,59.05,0.21
+6,Regulatory Quality,India,2017,10,-0.26,42.86,0.19
+7,Regulatory Quality,India,2018,10,-0.23,44.76,0.19
+8,Regulatory Quality,India,2019,10,-0.15,47.14,0.19
+9,Rule of Law,India,2017,12,-0.03,52.86,0.16
+10,Rule of Law,India,2018,12,0.0,53.33,0.15
+11,Rule of Law,India,2019,12,-0.07,51.43,0.15
+12,Control of Corruption,India,2017,13,-0.29,45.71,0.12
+13,Control of Corruption,India,2018,13,-0.23,47.62,0.13
+14,Control of Corruption,India,2019,13,-0.3,44.76,0.13
+0,Political Stability and Absence of Violence/Terrorism,India,2005,7,-1.01,17.48,0.27
+1,Political Stability and Absence of Violence/Terrorism,India,2006,8,-1.07,16.91,0.25
+2,Political Stability and Absence of Violence/Terrorism,India,2007,8,-1.15,13.53,0.24
+3,Government Effectiveness,India,2005,8,-0.1,52.45,0.18
+4,Government Effectiveness,India,2006,10,-0.1,53.17,0.18
+5,Government Effectiveness,India,2007,10,0.14,57.77,0.2
+6,Regulatory Quality,India,2005,9,-0.29,45.1,0.16
+7,Regulatory Quality,India,2006,10,-0.28,45.59,0.18
+8,Regulatory Quality,India,2007,10,-0.31,43.2,0.18
+9,Rule of Law,India,2005,12,0.13,56.94,0.16
+10,Rule of Law,India,2006,15,0.18,57.42,0.15
+11,Rule of Law,India,2007,15,0.1,56.46,0.15
+12,Control of Corruption,India,2005,11,-0.36,44.88,0.14
+13,Control of Corruption,India,2006,14,-0.27,47.32,0.13
+14,Control of Corruption,India,2007,14,-0.4,41.26,0.14
+0,Political Stability and Absence of Violence/Terrorism,India,2008,8,-1.11,13.94,0.24
+1,Political Stability and Absence of Violence/Terrorism,India,2009,8,-1.36,10.43,0.24
+2,Political Stability and Absence of Violence/Terrorism,India,2010,8,-1.28,11.37,0.24
+3,Government Effectiveness,India,2008,10,-0.01,56.8,0.2
+4,Government Effectiveness,India,2009,10,0.0,56.46,0.19
+5,Government Effectiveness,India,2010,10,0.03,56.94,0.19
+6,Regulatory Quality,India,2008,10,-0.41,38.83,0.17
+7,Regulatory Quality,India,2009,10,-0.35,39.71,0.17
+8,Regulatory Quality,India,2010,10,-0.41,36.84,0.17
+9,Rule of Law,India,2008,15,0.1,57.21,0.14
+10,Rule of Law,India,2009,15,0.02,54.98,0.14
+11,Rule of Law,India,2010,15,-0.04,53.55,0.14
+12,Control of Corruption,India,2008,14,-0.34,43.69,0.14
+13,Control of Corruption,India,2009,14,-0.45,39.23,0.13
+14,Control of Corruption,India,2010,14,-0.46,39.05,0.13
+0,Political Stability and Absence of Violence/Terrorism,India,2011,9,-1.33,10.9,0.24
+1,Political Stability and Absence of Violence/Terrorism,India,2012,9,-1.29,10.9,0.22
+2,Political Stability and Absence of Violence/Terrorism,India,2013,9,-1.23,12.32,0.23
+3,Government Effectiveness,India,2011,10,0.02,56.87,0.19
+4,Government Effectiveness,India,2012,10,-0.16,50.71,0.19
+5,Government Effectiveness,India,2013,10,-0.16,48.82,0.19
+6,Regulatory Quality,India,2011,11,-0.36,38.86,0.16
+7,Regulatory Quality,India,2012,11,-0.48,33.65,0.18
+8,Regulatory Quality,India,2013,11,-0.48,34.6,0.17
+9,Rule of Law,India,2011,16,-0.09,52.58,0.13
+10,Rule of Law,India,2012,16,-0.06,53.05,0.14
+11,Rule of Law,India,2013,15,-0.05,53.52,0.14
+12,Control of Corruption,India,2011,15,-0.54,35.55,0.14
+13,Control of Corruption,India,2012,15,-0.51,36.49,0.13
+14,Control of Corruption,India,2013,14,-0.52,36.97,0.13
+0,Political Stability and Absence of Violence/Terrorism,India,2014,9,-1.0,13.81,0.19
+1,Political Stability and Absence of Violence/Terrorism,India,2015,9,-0.95,17.14,0.2
+2,Political Stability and Absence of Violence/Terrorism,India,2016,9,-0.96,14.76,0.2
+3,Government Effectiveness,India,2014,9,-0.22,45.19,0.21
+4,Government Effectiveness,India,2015,9,0.08,55.71,0.21
+5,Government Effectiveness,India,2016,9,0.06,55.71,0.2
+6,Regulatory Quality,India,2014,10,-0.48,33.65,0.2
+7,Regulatory Quality,India,2015,10,-0.42,37.14,0.19
+8,Regulatory Quality,India,2016,10,-0.31,41.43,0.19
+9,Rule of Law,India,2014,13,-0.07,55.77,0.16
+10,Rule of Law,India,2015,13,-0.07,55.24,0.15
+11,Rule of Law,India,2016,12,-0.06,52.38,0.17
+12,Control of Corruption,India,2014,13,-0.46,39.9,0.13
+13,Control of Corruption,India,2015,13,-0.41,42.86,0.13
+14,Control of Corruption,India,2016,13,-0.34,43.81,0.13
